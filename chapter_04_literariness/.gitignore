@@ -1,0 +1,6 @@
+CONLIT_LIWC.csv
+results/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

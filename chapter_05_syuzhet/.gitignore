@@ -1,0 +1,22 @@
+# Ignore heavy corpus text files
+corpus/
+*.zip
+
+# Ignore embedding models and arrays
+embeddings/
+arcs_global/
+*.npy
+*.parquet
+
+# OS specific files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# IDE / Jupyter files
+.ipynb_checkpoints/
+.vscode/
+
+# Keep specific small metadata or configuration if desired
+!metadata.csv

@@ -1,0 +1,18 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore OS generated files
+.DS_Store
+*.tmp
+~*
+
+# Ignore generated models
+models/
+models_backup/
+
+results/
+
+# Ignore large datasets and zips
+ELTEC/
+*.zip

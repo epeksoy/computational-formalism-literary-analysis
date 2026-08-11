@@ -1,0 +1,41 @@
+# Environment and System Files
+.DS_Store
+Thumbs.db
+.Rhistory
+~*.tmp
+__pycache__/
+*.pyc
+
+# Ignore large archives
+*.zip
+
+# Ignore specific large data files
+chapter_04_literariness/CONLIT_*.csv
+chapter_04_literariness/conlit_master.csv
+chapter_04_literariness/*.pkl
+chapter_04_literariness/*.xlsx
+chapter_05_syuzhet/arc_vectors_clustered_global_enriched.csv
+chapter_05_syuzhet/arc_vectors_global.parquet
+chapter_05_syuzhet/global_centroid.npy
+
+# Ignore contents of data and figure directories, but keep the directory via .gitkeep
+chapter_03_defamiliarization/ELTEC/*
+!chapter_03_defamiliarization/ELTEC/.gitkeep
+chapter_03_defamiliarization/models/*
+!chapter_03_defamiliarization/models/.gitkeep
+chapter_03_defamiliarization/results/*
+!chapter_03_defamiliarization/results/.gitkeep
+chapter_03_defamiliarization/test_novels/*
+!chapter_03_defamiliarization/test_novels/.gitkeep
+
+chapter_04_literariness/results/*
+!chapter_04_literariness/results/.gitkeep
+
+chapter_05_syuzhet/arcs_global/*
+!chapter_05_syuzhet/arcs_global/.gitkeep
+chapter_05_syuzhet/corpus/*
+!chapter_05_syuzhet/corpus/.gitkeep
+chapter_05_syuzhet/embeddings/*
+!chapter_05_syuzhet/embeddings/.gitkeep
+chapter_05_syuzhet/results/*
+!chapter_05_syuzhet/results/.gitkeep
